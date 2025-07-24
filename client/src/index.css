@@ -1,0 +1,45 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+/* Hide search results after the fifth */
+.gsc-webResult.gsc-result:nth-child(n+6) {
+  display: none !important;
+}
+
+.gsc-thumbnail-inside > a,
+.gsc-webResult-snippet,
+.gsc-url-top,
+.gsc-url-bottom,
+.gsc-cursor-box,
+.gsc-results .gsc-cursor-box {
+  display: none !important;
+}
+
+/* Style the title links */
+.gsc-webResult a.gs-title,
+.gsc-webResult a.gs-title:visited {
+  color: #1a0dab;
+  font-weight: 600;
+  text-decoration: underline;
+}
+
+/* Optionally add spacing */
+.gsc-webResult {
+  margin-bottom: 12px;
+}
+
+/* Hide result thumbnails/images */
+.gsc-thumbnail {
+  display: none !important;
+}
